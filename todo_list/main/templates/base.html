@@ -1,0 +1,65 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}"></link>
+
+</head>
+<body>
+    <div class="header">
+        <div class="namePlace">
+            UserName
+        </div>
+    </div>
+
+    <div class="main_block">
+        <div class="table_list_block">
+            <div class="tables">
+                 <a href="#"><div class="table"><div class="table_list_name">{{ table.name }}</div></div></a>
+            </div>
+        </div>
+        <div class="table_tasks">
+            <div class="table_name" style="margin-left: 40px; margin-bottom: 10px;">Table name</div>
+            <div class="table_data">
+                <div class="table_title">
+                    <div class="task_data_title">id</div>
+                    <div class="task_data_title">title</div>
+                    <div class="task_data_title">discription</div>
+                    <div class="task_data_title">time</div>
+                </div>
+                <div class="table_task_list">
+                    <a>
+                        <div class="task">
+                            <div class="task_data number">1</div>
+                            <div class="task_data task_data">Feed the dog</div>
+                            <div class="task_data description">Put to dog 100mg of corm</div>
+                            <div class="task_data time">12:28</div>
+                        </div>
+                    </a>
+                    <a>
+                        <div class="task">
+                            <div class="task_data number">2</div>
+                            <div class="task_data task_data">Feed the cat</div>
+                            <div class="task_data description">Put to cat 200mg of corm</div>
+                            <div class="task_data time">12:38</div>
+                        </div>
+                    </a>
+                    <a>
+                        <div class="task">
+                            <div class="task_data number">3</div>
+                            <div class="task_data task_data">Feed the fish</div>
+                            <div class="task_data description">Put to fish 500mg of corm</div>
+                            <div class="task_data time">14:45</div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

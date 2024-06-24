@@ -1,0 +1,126 @@
+body { 
+    margin: 0;
+    padding: 0;
+    background-color: rgb(249, 244, 240);
+}
+
+
+.header {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(225, 164, 111);
+    border-radius: 0 0 10px 10px;
+}
+
+.namePlace {
+    position: absolute;
+    margin: 10px 90%;
+
+}
+
+
+.table_name {
+    font-size: 25px;
+}
+
+
+.main_block { 
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.table_list_block { 
+    flex: 2;
+}
+
+.table_tasks {
+    flex: 2;
+}
+
+.table_data {
+    border-top: 1px solid rgba(161, 161, 161, 0.227);
+    width: 90%;
+    margin: auto;
+}
+
+.task {
+    margin: 20px;
+    display: flex;
+    background-color: wheat;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.task_data:nth-child(1) {
+    flex: 0.1;
+}
+
+.task_data:nth-child(2) {
+    flex: 1;
+    border-right: 1px solid rgba(128, 128, 128, 0.645);
+    border-left: 1px solid rgba(128, 128, 128, 0.487);
+}
+
+.task_data:nth-child(3) {
+    flex: 1.5;
+    border-right: 1px solid rgba(128, 128, 128, 0.572);
+}
+
+.task_data:nth-child(4) {
+    flex: 0.1;
+}
+
+
+
+
+
+.table_title {
+    margin: 10px auto;
+    display: flex;
+}
+
+
+.task_data_title:nth-child(1) {
+    flex: 0.3;
+}
+
+.task_data_title:nth-child(2) {
+    flex: 1;
+}
+
+.task_data_title:nth-child(3) {
+    flex: 2;
+}
+
+.task_data_title:nth-child(4) {
+    flex: 0.3;
+}
+
+.task_data_title {
+    text-align: center;
+}
+
+.table_list_block {
+    flex: 0.5;
+}
+
+.tables {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.table {
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black
+}
